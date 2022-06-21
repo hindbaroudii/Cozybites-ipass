@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 
 .link{
     display: var(--rLinkDisplay, inline-flex) !important;
@@ -38,7 +42,8 @@
   }
   
   .navlist{
-    display: flex;  
+    display: flex; 
+    
   }
   
   .navbarlink{
@@ -99,6 +104,7 @@
     margin: auto;
     justify-content: space-evenly;
     
+    
   }
   
   .pagemenu:nth-child(n+2){
@@ -128,4 +134,27 @@
     margin-top: -6px; */
   }
 
+  .cakebg{
+    background-image: url("image/cake1.jpg");
+    /* background-color: #f194a3; */
+    width: 50%;
+    min-height: 750px;
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    opacity: 0.7; 
+    display: flex;
+    align-items: center;
+   
+  }
  
+
+  .searchinput{
+    justify-content: center;
+    padding: 30px;
+    background-color: #f7f2f2;
+    opacity: 0.5;
+    display: flex;
+    
+    
+  }
