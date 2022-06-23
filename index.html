@@ -2,9 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="indexstyle.css">
-        <title>Cozy bites</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font-awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="style.css">
 
+        <title>Cozy bites</title>
     </head>
 
     <body>
@@ -19,22 +23,49 @@
         
                       <ul class="navlist list">
                         <li class="menugroup"><a href="index.html" class="navbarlink link text-underlined">HOME</a></li>
-                        <li class="menugroup"><a href="recipes.html" class="navbarlink link text-underlined">RECIPES</a></li>
-                        <li class="menugroup"><a href="login.html" class="navbarlink link text-underlined">ACCOUNT</a></li>
-                        <li class="menugroup"><a href="aboutus.html" class="navbarlink link text-underlined">ABOUT US</a></li>
+                        <li class="menugroup"><a href="#recipes" class="navbarlink link text-underlined">RECIPES</a></li>
+                        <li class="menugroup"><a href="#account" class="navbarlink link text-underlined">ACCOUNT</a></li>
+                        <li class="menugroup"><a href="#about-us" class="navbarlink link text-underlined">ABOUT US</a></li>
+                        <li class="menugroup"><a href="#" class="navbarlink link text-underlined"><i class="fa fa-user fa-lg" aria-hidden="true"> </i> Aanmelden</i></a></li>
                       </ul>
-
+                
                     </nav>
                   </div>
             </header>
                 </div>
 
-        <section>
-            <div class="cakebg">
+        <section class="container1">
+            <div class="contatiner1-child cakebg1">
                 <div class="searchinput">
                     <input type="search" id="searchbar" name="recipesearch">
+                    <button type="submit"><i class="fa fa-search"></i></button>
                 </div>
             </div>
+            <div class="contatiner1-child cakebg2">
+                <div class="imgcake">
+                   
+                </div>
+                <div class="textcake">
+                    <h3>Top recipes of the week</h3>
+                    <div class="boxescake">
+                        <div class="cakes-boxes">some boxes</div>
+                        <div class="cakes-boxes">some boxes</div>
+                        <div class="cakes-boxes">some boxes</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recipes" class="containers">
+            <h3>RECIPES</h3>
+        </section>
+
+        <section id="account" class="containers">
+            <h3>ACCOUNT</3>
+        </section>
+        
+        <section id="about-us" class="containers">
+            <h3>ABOUT US</h3>
         </section>
         </main>
     </body>
