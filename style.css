@@ -165,7 +165,7 @@ body{
 .contatiner1-child .imgcake {
   margin-top: 10%;
   width: 100%;
-  height: 50%;
+  height: 35%;
   background-image: url('image/cake2.png');
   /* background-color: #f194a3; */
   background-size: 100%;
@@ -189,12 +189,12 @@ body{
 }
 
 .contatiner1-child .textcake .boxescake .cakes-boxes {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 5%;
+    background-color: #fef8f85c;
+    border: 1px solid #fc848c;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5%;
 }
 
 #searchbar{
@@ -244,20 +244,91 @@ body{
   cursor: pointer;
 }
 
-
-
+.textcake h3{
+  color: #f194a3;
+    font-family: emoji;
+    text-align: center;
+    font-size: xx-large
+}
 
 @media only screen and (max-width: 1024px) {
+
   .container1 {
     display: block;
   }
+
   .container1 .contatiner1-child {
     min-height: 500px;
     min-width: 100%;
     margin: 0 auto;
   }
+
   .contatiner1-child .textcake .boxescake { 
     min-height: 300px;
   }
+
+}
+
+#login-error-msg-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+
+#error-msg-second-line {
+  display: block;
+}
+
+#login-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.login-form-field::placeholder {
+  color: #3a3a3a;
+}
+
+.login-form-field {
+  border: none;
+  border-bottom: 1px solid #f194a3;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+  width: 200px;
+}
+
+#login-form-submit {
+  width: 200px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #f194a3;
+  cursor: pointer;
+  outline: none;
+}
+
+#naccount{
+  font-size: xx-small;
+  color:#3a3a3a;
 }
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font-awesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="loginstyle.css">
+
+        <title>Cozy bites login</title>
+    </head>
+
+    <body>
+        <main class="index">
+            <header> 
+               <div class="navbar">
+                    <nav class="pagemenu menu">
+
+                        <div class="logo-image">
+                            <img src="image/cozybiteslogo.png" class="img-fluid">
+                        </div>
+        
+                        <ul class="navlist list">
+                            <li class="menugroup"><a href="index.html" class="navbarlink link text-underlined">HOME</a></li>
+                            <li class="menugroup"><a href="index.html#recipes" class="navbarlink link text-underlined">RECIPES</a></li>
+                            <li class="menugroup"><a href="login.html" class="navbarlink link text-underlined">ACCOUNT</a></li>
+                            <li class="menugroup"><a href="index.html#about-us" class="navbarlink link text-underlined">ABOUT US</a></li>
+                            <!-- <li class="menugroup"><a href="#" class="navbarlink link text-underlined"><i class="fa fa-user fa-lg" aria-hidden="true"> </i> Aanmelden</i></a></li> -->
+                          </ul>
+                
+                    </nav>
+                  </div>
+            </header>
+
+        <section id="account" class="containers">
+            <h3>ACCOUNT</3>
+                <div id="login-error-msg-holder">
+                    <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+                  </div>
+                  
+                  <form id="login-form">
+                    <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+                    <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+                    <input type="submit" value="Login" id="login-form-submit">
+                    <br>
+                    <label id="naccount">New to Cozybites? <br>
+                        don't miss on our recipes and make an <a href="signup.html">account</a> right now!</label>
+                  </form>
+        </section>
+        </main>
+    </body>
+</html>
