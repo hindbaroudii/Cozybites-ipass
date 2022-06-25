@@ -4,7 +4,22 @@
     margin:0;
     padding:0;
   }
+
+  *,
+  *:before,
+  *:after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
   
+
+  body {
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      background: #fef8f8;
+  }
+  
+
   html { 
   scroll-behavior: smooth;
   }
@@ -166,18 +181,6 @@
       font-size: xx-large
   }
   
-  *,
-  *:before,
-  *:after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-  }
-  
-  body {
-      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-      background: #ffffff;
-  }
   
   input,
   button {
