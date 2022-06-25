@@ -154,3 +154,33 @@
     color:#2f2f2f;
     font-size: 1rem;
   }
+
+  .contatiner1-child .textcake { 
+    width: 70%;
+    margin: 0 auto;
+    height: 30%;
+  
+  }
+  
+  .contatiner1-child .boxescake {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    min-height: 70%;
+  }
+  
+  .contatiner1-child .textcake .boxescake .cakes-boxes {
+      background-color: #fef8f85c;
+      border: 1px solid #fc848c;
+      font-size: 30px;
+      text-align: center;
+     
+  }
+
+  .recipeimg {
+    width:75%;
+    height:75%;
+    max-height: 400px;
+    max-width: 400px;
+  }
