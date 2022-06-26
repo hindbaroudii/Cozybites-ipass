@@ -151,15 +151,16 @@ body{
 }
 
 .container1 .cakebg1{
-  background-image: url("image/cake1.jpg");
+  background-image: url("image/background.jpg");
   /* background-color: #f194a3; */
   background-size: 100%;
   background-position: left;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .contatiner1-child .imgcake {
@@ -183,15 +184,16 @@ body{
 .contatiner1-child .textcake .boxescake {
   height: 100%;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   column-gap: 10px;
   min-height: 70%;
+  justify-content: center;
+  align-content: space-evenly;
 }
 
 .contatiner1-child .textcake .boxescake .cakes-boxes {
     background-color: #fef8f85c;
     border: 1px solid #fc848c;
-    padding: 20px;
     font-size: 30px;
     text-align: center;
     border-radius: 5%;
@@ -269,66 +271,17 @@ body{
 
 }
 
-#login-error-msg-holder {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  justify-items: center;
+.topimg {
+  width: 70px;
+    height: 70px;
+    min-width: 50px;
+    float: left;
+}
+
+
+h4  {
+  font-family: "Frank Ruhl Libre",Georgia,serif;
+  float: right;
   align-items: center;
+  font-weight: 100;
 }
-
-#login-error-msg {
-  width: 23%;
-  text-align: center;
-  margin: 0;
-  padding: 5px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #8a0000;
-  border: 1px solid #8a0000;
-  background-color: #e58f8f;
-  opacity: 0;
-}
-
-#error-msg-second-line {
-  display: block;
-}
-
-#login-form {
-  align-self: flex-start;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
-
-.login-form-field::placeholder {
-  color: #3a3a3a;
-}
-
-.login-form-field {
-  border: none;
-  border-bottom: 1px solid #f194a3;
-  margin-bottom: 20px;
-  border-radius: 3px;
-  outline: none;
-  padding: 0px 0px 5px 5px;
-  width: 200px;
-}
-
-#login-form-submit {
-  width: 200px;
-  padding: 7px;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  background-color: #f194a3;
-  cursor: pointer;
-  outline: none;
-}
-
-#naccount{
-  font-size: xx-small;
-  color:#3a3a3a;
-}
-

@@ -183,4 +183,10 @@
     height:75%;
     max-height: 400px;
     max-width: 400px;
+    min-width: 100%;
+  }
+
+  h4 {
+    font-family: "Frank Ruhl Libre",Georgia,serif;
+    font-size: large;
   }
