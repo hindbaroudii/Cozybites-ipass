@@ -1,16 +1,24 @@
 * {
-    box-sizing: border-box;
-    background-color: #fef8f8;
-    margin:0;
-    padding:0;
-  }
-  
-  html { 
+  box-sizing: border-box;
+  background-color: #fef8f8;
+  margin:0;
+  padding:0;
+}
+
+html, body{ 
   scroll-behavior: smooth;
-  }
-  
-  .link{
-    display: var(--rLinkDisplay, inline-flex) !important;
+}
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;  
+  flex-direction: column;
+}
+
+.link{
+  display: var(--rLinkDisplay, inline-flex) !important;
   }
   
   .link[href]{
@@ -96,13 +104,6 @@
     transition-duration: .2s;
   }
     
-  body{
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;  
-    flex-direction: column;
-  }
   
   .navbar{
     box-sizing: border-box;
@@ -167,7 +168,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 10px;
-    min-height: 70%;
   }
   
   .contatiner1-child .textcake .boxescake .cakes-boxes {
@@ -175,17 +175,39 @@
       border: 1px solid #fc848c;
       font-size: 30px;
       text-align: center;
-     
+      max-width: 400px;
+      min-height: 650px;
+      overflow-y: auto;
   }
+  .contatiner1-child .textcake .boxescake .cakes-boxes h4 { 
+    font-family: "Frank Ruhl Libre",Georgia,serif;
+    font-size: large;
+  }
+
+  .contatiner1-child .textcake .boxescake .cakes-boxes p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 10pt;
+  }
+
+  .contatiner1-child .textcake .boxescake .cakes-boxes span { 
+    padding: 10px;
+    display: block;
+    text-align: left;
+    color: rgb(10, 113, 113);
+    font-size: 20px;
+    font-size: small;
+  }
+
 
   .recipeimg {
     width:75%;
     height:75%;
     max-height: 400px;
-    max-width: 400px;
     min-width: 100%;
   }
-
+  
   h4 {
     font-family: "Frank Ruhl Libre",Georgia,serif;
     font-size: large;
