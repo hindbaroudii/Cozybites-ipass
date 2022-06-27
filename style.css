@@ -181,6 +181,13 @@ body{
 
 }
 
+.contatiner1-child .textcake h3{
+  color: #f194a3;
+    font-family: emoji;
+    text-align: center;
+    font-size: xx-large
+}
+
 .contatiner1-child .textcake .boxescake {
   height: 100%;
   display: grid;
@@ -191,13 +198,31 @@ body{
   align-content: space-evenly;
 }
 
+
 .contatiner1-child .textcake .boxescake .cakes-boxes {
     background-color: #fef8f85c;
     border: 1px solid #fc848c;
     font-size: 30px;
     text-align: center;
     border-radius: 5%;
+    padding: 10px;
 }
+.contatiner1-child .textcake .boxescake .cakes-boxes .topimg { 
+  width: 100px;
+  height: 100px;
+  min-width: 50px;
+  float: left;
+  padding-right: 10px;
+}
+
+.contatiner1-child .textcake .boxescake .cakes-boxes h4 { 
+  font-family: "Frank Ruhl Libre",Georgia,serif;
+  float: right;
+  align-items: center;
+  font-weight: 100;
+  padding-top: 25px;
+}
+
 
 #searchbar{
   padding: 15px 0px;
@@ -246,13 +271,6 @@ body{
   cursor: pointer;
 }
 
-.textcake h3{
-  color: #f194a3;
-    font-family: emoji;
-    text-align: center;
-    font-size: xx-large
-}
-
 @media only screen and (max-width: 1024px) {
 
   .container1 {
@@ -271,17 +289,7 @@ body{
 
 }
 
-.topimg {
-  width: 70px;
-    height: 70px;
-    min-width: 50px;
-    float: left;
-}
-
-
-h4  {
+h4 {
   font-family: "Frank Ruhl Libre",Georgia,serif;
-  float: right;
-  align-items: center;
-  font-weight: 100;
+  font-size: large;
 }
